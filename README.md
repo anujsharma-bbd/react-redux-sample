@@ -1,5 +1,6 @@
 # react-redux-sample
 #Note :- implemented features
+Author : Anuj Sharma
 
 # 1) React JS
 # 2) Redux 
