@@ -1,0 +1,38 @@
+:root {
+    --progress-bg-color: #192229;
+    --progress-fg-color: #3e98c7;
+}
+
+.CircularProgress-Bg,
+.CircularProgress-Fg {
+    fill: none;
+}
+
+.CircularProgress-Bg {
+    stroke: var(--progress-bg-color);
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgress-Fg {
+    stroke: var(--progress-fg-color);
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgress-Text {
+    font-size: 20px;
+    text-anchor: middle;
+    font-family: sans-serif;
+    font-size: 30px;
+    fill: var(--progress-fg-color);
+    transform: translate(0 50%);
+}
+
+.CircularProgress-Text2 {
+    font-size:18px;
+    text-align:center;
+    text-anchor: middle;
+    fill: #d6d6d6;
+    transform: translate(0 50%);
+}

@@ -1,0 +1,174 @@
+
+.reports-content
+{
+    min-height: 600px;
+}
+.reports-download-excel{
+    padding: 200px 30px 0px 30px;
+}
+.reports-download-excel .donwload-button{
+    color: #fff;
+    border: 0px;
+    padding: 7px 15px;
+    background: #01acac;
+    border-radius: 4px;
+    min-width: 102px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.reports-download-excel .donwload-button:hover{
+    color: #000;
+}
+.reports-download-excel .downloadicon{
+    margin-left: 10px;
+}
+.reports-notification{
+    padding: 150px 20px;
+    color: #ccc;
+}
+.minify-reports-button{
+    background: #1a2229!important;
+}
+.survey-grid-position-relative{
+    position: relative;
+}
+
+
+
+.surveys-table {
+    width: 100%;
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+.surveys-table thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 5px;
+    text-align: left;
+}
+
+.surveys-table tbody td {
+    color: #242a30;
+    padding: 3px;
+}
+
+.surveys-table tbody tr td div {
+    height: 40px;
+    max-height: 40px;
+    text-align: center;
+    padding: 10px;
+    min-width: 100px;
+}
+
+.surveys-table-rounded {
+    border: none;
+}
+
+.td-header-string-example{
+    background-color: #242a30 !important;
+    border: none;
+    color: #DDEEEE !important;
+    text-transform: capitalize !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+
+.td-header-string-example-left{
+    background-color: #242a30 !important;
+    border: none;
+    color: #DDEEEE !important;
+    text-transform: capitalize !important;
+    text-align: left !important;
+    vertical-align: middle !important;
+}
+
+.surveys-table-rounded thead th {
+    background-color: #242a30;
+    border: none;
+    color: #DDEEEE;
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 100px;
+}
+.react-bs-table-no-data {
+  text-align: left !important;
+  padding-left: 6% !important;
+}
+
+.surveys-table-rounded thead th:first-child {
+    border-radius: 0px 0 0 0;
+    width: 10%;
+}
+
+.surveys-table-rounded thead th:last-child {
+    border-radius: 0 0px 0 0;
+}
+
+.surveys-table-rounded tbody td {
+    border-top: solid 1px #eaeaea;
+    border-right: solid 1px #eaeaea;
+    border-left: solid 1px #eaeaea;
+    height:30px;
+    overflow: hidden; 
+}
+
+.surveys-table-rounded tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 0px;
+    border: none;
+}
+
+.react-bs-table-container  .row .col-md-6{
+ padding-left: 0px;
+ padding-right: 0px;
+}
+.react-bs-table-container .row{
+    width: 100%;
+    border-bottom: none;
+    padding: 0px 0px!important;
+    margin:  0 0!important;
+}
+.react-bs-table-container .row > div{
+    width: 100%;
+}
+.surveys-table-rounded tbody tr:last-child td:last-child {
+    border-radius: 0 0 0 0;
+    border: none;
+}
+.react-bs-table-tool-bar > .row > div > div.col-md-6{
+    width: 100%;
+    text-align: right;
+}
+.surveys-table-rounded tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+  .custom-scroll-bar::-webkit-scrollbar {
+                    height: 8px;
+                }
+                /* Track */
+                
+                .custom-scroll-bar::-webkit-scrollbar-track {
+                    -webkit-box-shadow: inset 0 0 0px #707478;
+                    box-shadow: inset 0 0 0px #707478;
+                    -webkit-border-radius: 0px;
+                    border-radius: 0px;
+                }
+                /* Handle */
+                
+                .custom-scroll-bar::-webkit-scrollbar-thumb {
+                    -webkit-border-radius: 0px;
+                    border-radius: 4px;
+                    background-color: #707478;
+                    -webkit-box-shadow: inset 0 0 0px #707478;
+                    box-shadow: inset 0 0 0px #707478;
+                }
+                
+                .custom-scroll-bar:window-inactive {
+                    background-color: #707478;
+                }

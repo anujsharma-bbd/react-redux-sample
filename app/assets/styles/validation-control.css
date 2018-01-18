@@ -1,0 +1,33 @@
+validation_info, .validation_success, .validation_warning, .validation_error {
+margin: 0px 0px 10px 0px;
+font-size:13px;
+border-radius: 4px;
+padding-right: 10px;
+}
+.validation_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.validation_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.validation_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.validation_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+.validation_info i, .validation_success i, .validation_warning i, .validation_error i {
+    margin:10px 10px;
+    font-size:1.5em;
+    vertical-align:middle;
+}
+.validation_container {  
+    position:fixed;
+    top:0px; 
+    z-index:100000;
+    opacity:0.8;
+}
